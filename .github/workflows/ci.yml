@@ -11,9 +11,8 @@ jobs:
 
           - name: Configurar Python
             uses: actions/setup-python@v4
-            whith:
+            with:
               python-version: "3.10"
-
           - name: Ejecutar script
             run: python script.py
 
@@ -25,4 +24,4 @@ jobs:
 
           - name: Notificar exito
             if: success()
-            run: echo "Pipeline completado! Ver artefacto em Summary"
+            run: echo "Pipeline completado! Ver artefacto em Summary"S
