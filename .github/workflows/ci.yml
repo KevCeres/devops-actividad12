@@ -24,4 +24,5 @@ jobs:
 
           - name: Notificar exito
             if: success()
-            run: echo "Pipeline completado! Ver artefacto em Summary"S
+            run: echo "Pipeline completado! Ver artefacto em Summary"
+
